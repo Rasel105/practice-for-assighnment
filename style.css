@@ -17,6 +17,7 @@ h2 {
 
 .flexible-container{
     display: flex;
+    margin-bottom: 120px;
 }
 
 .half-width{
@@ -47,4 +48,33 @@ h2 {
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+
+#web-dev-ex1{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+}
+#web-dev-ex2{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, red);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
